@@ -1,0 +1,1 @@
+/var/www/html/magento2/Magento_Open_Source/vendor/magento/module-admin-analytics/view/adminhtml/web/js/release-notification/modal/component-mixin.js

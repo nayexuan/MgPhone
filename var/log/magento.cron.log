@@ -1,0 +1,77 @@
+
+There is an error in /var/www/html/magento2/Magento_Open_Source/app/etc/env.php at line: 110
+syntax error, unexpected single-quoted string "system", expecting "]"#0 /var/www/html/magento2/Magento_Open_Source/vendor/magento/framework/App/DeploymentConfig.php(188): Magento\Framework\App\DeploymentConfig\Reader->load()
+#1 /var/www/html/magento2/Magento_Open_Source/vendor/magento/framework/App/DeploymentConfig.php(206): Magento\Framework\App\DeploymentConfig->reloadInitialData()
+#2 /var/www/html/magento2/Magento_Open_Source/vendor/magento/framework/App/DeploymentConfig.php(91): Magento\Framework\App\DeploymentConfig->reloadData()
+#3 /var/www/html/magento2/Magento_Open_Source/vendor/magento/framework/App/ObjectManagerFactory.php(117): Magento\Framework\App\DeploymentConfig->get()
+#4 /var/www/html/magento2/Magento_Open_Source/vendor/magento/framework/App/Bootstrap.php(212): Magento\Framework\App\ObjectManagerFactory->create()
+#5 /var/www/html/magento2/Magento_Open_Source/vendor/magento/framework/App/Bootstrap.php(127): Magento\Framework\App\Bootstrap->__construct()
+#6 /var/www/html/magento2/Magento_Open_Source/vendor/magento/framework/Console/Cli.php(187): Magento\Framework\App\Bootstrap::create()
+#7 /var/www/html/magento2/Magento_Open_Source/vendor/magento/framework/Console/Cli.php(85): Magento\Framework\Console\Cli->initObjectManager()
+#8 /var/www/html/magento2/Magento_Open_Source/bin/magento(22): Magento\Framework\Console\Cli->__construct()
+#9 {main}
+
+
+There is an error in /var/www/html/magento2/Magento_Open_Source/app/etc/env.php at line: 110
+syntax error, unexpected single-quoted string "system", expecting "]"#0 /var/www/html/magento2/Magento_Open_Source/vendor/magento/framework/App/DeploymentConfig.php(188): Magento\Framework\App\DeploymentConfig\Reader->load()
+#1 /var/www/html/magento2/Magento_Open_Source/vendor/magento/framework/App/DeploymentConfig.php(206): Magento\Framework\App\DeploymentConfig->reloadInitialData()
+#2 /var/www/html/magento2/Magento_Open_Source/vendor/magento/framework/App/DeploymentConfig.php(91): Magento\Framework\App\DeploymentConfig->reloadData()
+#3 /var/www/html/magento2/Magento_Open_Source/vendor/magento/framework/App/ObjectManagerFactory.php(117): Magento\Framework\App\DeploymentConfig->get()
+#4 /var/www/html/magento2/Magento_Open_Source/vendor/magento/framework/App/Bootstrap.php(212): Magento\Framework\App\ObjectManagerFactory->create()
+#5 /var/www/html/magento2/Magento_Open_Source/vendor/magento/framework/App/Bootstrap.php(127): Magento\Framework\App\Bootstrap->__construct()
+#6 /var/www/html/magento2/Magento_Open_Source/vendor/magento/framework/Console/Cli.php(187): Magento\Framework\App\Bootstrap::create()
+#7 /var/www/html/magento2/Magento_Open_Source/vendor/magento/framework/Console/Cli.php(85): Magento\Framework\Console\Cli->initObjectManager()
+#8 /var/www/html/magento2/Magento_Open_Source/bin/magento(22): Magento\Framework\Console\Cli->__construct()
+#9 {main}
+
+
+There is an error in /var/www/html/magento2/Magento_Open_Source/app/etc/env.php at line: 110
+syntax error, unexpected single-quoted string "system", expecting "]"#0 /var/www/html/magento2/Magento_Open_Source/vendor/magento/framework/App/DeploymentConfig.php(188): Magento\Framework\App\DeploymentConfig\Reader->load()
+#1 /var/www/html/magento2/Magento_Open_Source/vendor/magento/framework/App/DeploymentConfig.php(206): Magento\Framework\App\DeploymentConfig->reloadInitialData()
+#2 /var/www/html/magento2/Magento_Open_Source/vendor/magento/framework/App/DeploymentConfig.php(91): Magento\Framework\App\DeploymentConfig->reloadData()
+#3 /var/www/html/magento2/Magento_Open_Source/vendor/magento/framework/App/ObjectManagerFactory.php(117): Magento\Framework\App\DeploymentConfig->get()
+#4 /var/www/html/magento2/Magento_Open_Source/vendor/magento/framework/App/Bootstrap.php(212): Magento\Framework\App\ObjectManagerFactory->create()
+#5 /var/www/html/magento2/Magento_Open_Source/vendor/magento/framework/App/Bootstrap.php(127): Magento\Framework\App\Bootstrap->__construct()
+#6 /var/www/html/magento2/Magento_Open_Source/vendor/magento/framework/Console/Cli.php(187): Magento\Framework\App\Bootstrap::create()
+#7 /var/www/html/magento2/Magento_Open_Source/vendor/magento/framework/Console/Cli.php(85): Magento\Framework\Console\Cli->initObjectManager()
+#8 /var/www/html/magento2/Magento_Open_Source/bin/magento(22): Magento\Framework\Console\Cli->__construct()
+#9 {main}
+
+
+                                                          
+  There are no commands defined in the "cron" namespace.  
+                                                          
+
+
+                                                          
+  There are no commands defined in the "cron" namespace.  
+                                                          
+
+
+                                                          
+  There are no commands defined in the "cron" namespace.  
+                                                          
+
+
+                                                          
+  There are no commands defined in the "cron" namespace.  
+                                                          
+
+
+                                                          
+  There are no commands defined in the "cron" namespace.  
+                                                          
+
+
+In Abstract.php line 148:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+In Abstract.php line 128:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+cron:run [--group GROUP] [--exclude-group [EXCLUDE-GROUP]] [--bootstrap BOOTSTRAP]
+

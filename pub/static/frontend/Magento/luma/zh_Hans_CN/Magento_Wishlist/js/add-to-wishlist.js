@@ -1,0 +1,1 @@
+/var/www/html/magento2/Magento_Open_Source/vendor/magento/module-wishlist/view/frontend/web/js/add-to-wishlist.js

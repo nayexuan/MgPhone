@@ -1,0 +1,1 @@
+/var/www/html/magento2/Magento_Open_Source/lib/web/js-storage/js.storage.js

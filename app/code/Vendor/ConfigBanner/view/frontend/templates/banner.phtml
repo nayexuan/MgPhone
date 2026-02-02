@@ -1,0 +1,12 @@
+<?php
+// 读取配置
+$scopeConfig = $block->getScopeConfig();
+$isEnabled = $scopeConfig->isSetFlag('custom_banner/settings/enable', \Magento\Store\Model\ScopeInterface::SCOPE_STORE);
+$message = $scopeConfig->getValue('custom_banner/settings/message', \Magento\Store\Model\ScopeInterface::SCOPE_STORE);
+
+if ($isEnabled): ?>
+    <div style="background:#fffae6;border:1px solid #ffd700;padding:20px;margin-bottom:20px;text-align:center;font-size:18px;">
+        <?= $block->escapeHtml($message) ?>
+    </div>
+<?php endif; ?>
+
